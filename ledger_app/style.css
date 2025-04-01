@@ -7,12 +7,19 @@ html {
 body {
     max-width: 90%;
     margin: 0 auto;
-    background: white;
+    background: #eee;
 }
 
 .content {
     max-width: 90%;
     margin: auto;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    color: black;
 }
 
 .logo-section {
