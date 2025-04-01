@@ -18,10 +18,14 @@ body {
 .logo-section {
     display: flex;
     align-items: center;
-    width: 10%;
+    width: 15%;
+}
+
+a#logo {
+    width: 25%;
 }
 
 .logo {
     display: block;
-    width: 50%;
+    width: 100%;
 }
