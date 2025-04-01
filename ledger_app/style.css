@@ -1,0 +1,27 @@
+html {
+    font-family: sans-serif;
+    background: #eee;
+    padding: 1rem;
+}
+
+body {
+    max-width: 90%;
+    margin: 0 auto;
+    background: white;
+}
+
+.content {
+    max-width: 90%;
+    margin: auto;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    width: 10%;
+}
+
+.logo {
+    display: block;
+    width: 50%;
+}
