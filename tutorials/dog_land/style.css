@@ -35,3 +35,10 @@ li {
     border: 1px solid black;
     margin-bottom: 5px;
 }
+
+img {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3px 1px;
+    max-width: 100%;
+}
