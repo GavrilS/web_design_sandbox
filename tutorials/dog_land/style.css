@@ -1,0 +1,13 @@
+
+p {
+    font-family: sans-serif;
+    color: darkgoldenrod;
+    font-size: x-large;
+}
+
+li {
+    font-size: larger;
+    background-color: greenyellow;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
