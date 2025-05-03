@@ -38,7 +38,7 @@ li {
 
 img {
     display: inline-block;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 3px 1px;
     max-width: 100%;
 }
