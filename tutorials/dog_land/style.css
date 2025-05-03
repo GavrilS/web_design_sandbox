@@ -13,6 +13,10 @@ body {
 h1 {
     font-size: 30px;
     text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #d55353;
+    text-shadow: 3px 3px 1px black;
 }
 
 p,
@@ -27,7 +31,7 @@ p {
 }
 
 li {
-    background-color: greenyellow;
+    background-color: rgb(47, 161, 255);
     border: 1px solid black;
     margin-bottom: 5px;
 }
