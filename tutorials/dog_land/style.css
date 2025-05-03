@@ -1,6 +1,13 @@
 html {
     font-size: 10px;
     font-family: "Roboto", sans-serif;
+    background-color: #a3e4e5;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
 }
 
 h1 {
