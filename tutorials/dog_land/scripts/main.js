@@ -23,3 +23,19 @@ activeImages.forEach((element) => {
         imgCount++;
     })
 })
+
+primaryHeader = document.querySelector(".main-header");
+secondaryHeader = document.querySelector(".secondary-header");
+userBtn = document.querySelector(".user-btn");
+
+primaryHeader.addEventListener("click", () => {
+    primaryHeader.style.display = "none";
+    secondaryHeader.style.display = "block";
+    userBtn.style.display = "block";
+})
+
+secondaryHeader.addEventListener("click", () => {
+    userBtn.style.display = "none";
+    secondaryHeader.style.display = "none";
+    primaryHeader.style.display = "block";
+})
