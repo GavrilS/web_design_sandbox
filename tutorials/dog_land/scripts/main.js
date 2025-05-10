@@ -39,3 +39,13 @@ secondaryHeader.addEventListener("click", () => {
     secondaryHeader.style.display = "none";
     primaryHeader.style.display = "block";
 })
+
+userBtn.addEventListener("click", () => {
+    setUserName();
+})
+
+function setUserName() {
+    const userName = prompt("Please enter your name.");
+    localStorage.setItem("name", userName);
+    secondaryHeader.textContent = secondaryHeader.textContent.replace("___", userName);
+}
