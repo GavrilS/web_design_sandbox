@@ -27,8 +27,12 @@ activeImages.forEach((element) => {
 primaryHeader = document.querySelector(".main-header");
 secondaryHeader = document.querySelector(".secondary-header");
 userBtn = document.querySelector(".user-btn");
+let userName = "___";
 
 primaryHeader.addEventListener("click", () => {
+    if (secondaryHeader.textContent.includes("___")) {
+        setUserName();
+    }
     primaryHeader.style.display = "none";
     secondaryHeader.style.display = "block";
     userBtn.style.display = "block";
@@ -45,7 +49,7 @@ userBtn.addEventListener("click", () => {
 })
 
 function setUserName() {
-    const userName = prompt("Please enter your name.");
-    localStorage.setItem("name", userName);
-    secondaryHeader.textContent = secondaryHeader.textContent.replace("___", userName);
+    let newUserName = prompt("Please enter your name.");
+    secondaryHeader.textContent = secondaryHeader.textContent.replace(userName, newUserName);
+    userName = newUserName;
 }
