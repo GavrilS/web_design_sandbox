@@ -6,29 +6,30 @@
     <meta name="author" content="GS">
     <meta name="description" content="Tutorial on basic HTML features.">
     <!-- The property meta elemnts allow the links to your site that are shared to have additional features -->
-    <meta property="og:image" content="ducks.jpeg">
+    <meta property="og:image" content="images/ducks.jpeg">
     <meta property="og:description" content="Tutorial on basic HTML features.">
     <meta property="og:title" content="Core HTML Tutorial">
     <!-- Adding fav icon to be used when bookmarking the page of the site -->
-     <link rel="icon" href="ducks_fav.ico" type="image/x-icon">
+     <link rel="icon" href="images/ducks_fav.ico" type="image/x-icon">
     <title>Core HTML Tutorial</title>
 </head>
 <body>
-    <header>
-        <h1>Core HTML</h1>
-    </header>
+    <nav>
+        <header>
+            <h1>Core HTML</h1>
+        </header>
+        <a href="structure.html">HTML Structure</a>
+    </nav>
+    <br>
     <main>
-        <section>
-            <p>This is a paragraph.</p>
-            <em>This is an italic style paragraph.</em>
-            <p>This is a <strong>nested</strong> paragraph.</p>
-        </section>
-        <article>
-            <p>This image below is a void element - an element that contains only a start tag</p>
-            <img
-            src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"
-            alt="Firefox icon" />
-        </article>
+        <p>This is a paragraph.</p>
+        <em>This is an italic style paragraph.</em>
+        <p>This is a <strong>nested</strong> paragraph.</p>
+        <p>This image below is a void element - an element that contains only a start tag</p>
+
+        <img
+        src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"
+        alt="Firefox icon" />
 
         <p>Following are text boxes that show an example of boolean attributes - one of them is set to disabled, the other not:</p>
         <input type="text" disabled placeholder="You cannot write in me"/>
@@ -73,40 +74,12 @@
             <dd>Can have multiple descriptions under one term</dd>
         </dl>
 
-        <section>
-            <p>Here is a blockquote:</p>
-            <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/blockquote">
-                <p>
-                    The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block Quotation element</em>) indicates that the enclosed text is an extended quotation.
-                </p>
-            </blockquote>
-        </section>
-        <article>
-            <p>Example of superscript and subscript:</p>
-            <p>My birthday is on the 25<sup>th</sup> of May 2001.</p>
-            <p>Caffein's chemical formula is 
-                C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub></p>
-            <p>If x<sup>2</sup> is 9, x must equal 3 or -3.</p>
-        </article>
-
-        <section>
-            <pre>
-                <code>
-                    const para = document.querySelector('p');
-
-                    para.onclick = function() {
-                        alert('Owww, stop poking me!');
-                    }
-                </code>
-            </pre>
-            <p>In the above JavaScript example, <var>para</var> represents a paragraph element.</p>
-        </section>
-
+        <h4>Time example:</h4>
         <time datetime="2016-01-25">25 January 2016</time>
     </main>
 
     <footer>
-        <p>This is a the footer content.</p>
+        <p>This is the footer content.</p>
     </footer>
 </body>
 </html>
