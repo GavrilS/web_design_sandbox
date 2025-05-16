@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="GS">
+    <meta name="description" content="Tutorial on basic HTML features.">
+    <!-- The property meta elemnts allow the links to your site that are shared to have additional features -->
+    <meta property="og:image" content="images/ducks.jpeg">
+    <meta property="og:description" content="Tutorial on basic HTML features.">
+    <meta property="og:title" content="Core HTML Tutorial">
+    <!-- Adding fav icon to be used when bookmarking the page of the site -->
+     <link rel="icon" href="images/ducks_fav.ico" type="image/x-icon">
+    <title>Core HTML Tutorial</title>
+</head>
+<body>
+    <nav>
+        <header>
+            <h1>HTML Structure tutorial</h1>
+        </header>
+        <a href="index.html">Home</a>
+    </nav>
+    <br>
+    <main>
+        <section>
+            <h3>This is a section</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem nostrum repellat autem debitis cumque placeat. Vel officia ipsum vero minus ab explicabo quia iste. Numquam quam maiores sunt quisquam fugit accusamus, dignissimos neque nulla ipsam, quo in veniam fugiat nesciunt dolorum at animi mollitia inventore vel assumenda repudiandae nemo accusantium?</p>
+            <hr>
+            <h3>Section part 2</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident ea fuga commodi ipsa nobis. Autem quia neque excepturi necessitatibus, consequuntur eum id magni tenetur saepe ducimus mollitia perferendis ipsa quo enim culpa rerum molestias vitae corrupti earum sed aliquid maiores repellat aperiam! Nostrum, nihil consequuntur doloremque perferendis sunt cum dolore quia aliquid praesentium natus reprehenderit molestiae illo debitis, fuga necessitatibus magni repudiandae quo dolores beatae mollitia. Est laudantium aliquam cupiditate atque repudiandae similique earum ad nemo voluptatibus nobis eum amet soluta tenetur nulla exercitationem quisquam quia rem, saepe libero. Architecto, debitis itaque quam aliquam ab voluptatum et iusto suscipit repellendus?</p>
+        </section>
+        <article>
+            <h3>Simple article</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero recusandae aperiam, ex in expedita dolore quis ratione possimus qui veritatis!</p>
+        </article>
+
+        <section>
+            <p>Here is a blockquote:</p>
+            <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/blockquote">
+                <p>
+                    The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block Quotation element</em>) indicates that the enclosed text is an extended quotation.
+                </p>
+            </blockquote>
+        </section>
+        <article>
+            <p>Example of superscript and subscript:</p>
+            <p>My birthday is on the 25<sup>th</sup> of May 2001.</p>
+            <p>Caffein's chemical formula is 
+                C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub></p>
+            <p>If x<sup>2</sup> is 9, x must equal 3 or -3.</p>
+        </article>
+
+        <section>
+            <pre>
+                <code>
+                    const para = document.querySelector('p');
+
+                    para.onclick = function() {
+                        alert('Owww, stop poking me!');
+                    }
+                </code>
+            </pre>
+            <p>In the above JavaScript example, <var>para</var> represents a paragraph element.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>This is the footer content.</p>
+    </footer>
+</body>
+</html>
