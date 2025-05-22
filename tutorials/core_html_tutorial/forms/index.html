@@ -24,15 +24,72 @@
             <form action="./submit.html" method="get" target="_blank">
                 <h3>Subscribe to our newsletter</h3>
                 <p>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" required>
+                    <label for="name">Name</label> <br>
+                    <input type="text" name="name" id="name" placeholder="Enter your name..." required>
                 </p>
                 <p>
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email" required>
+                    <label for="email">Email</label> <br>
+                    <input type="email" name="email" id="email" placeholder="Enter a valid email..." required>
                 </p>
                 <p>
                     <button>Submit!</button>
+                </p>
+            </form>
+        </article>
+        
+        <article>
+            <h2>Other form control types</h2>
+            <form action="./submit.html" method="get" target="_blank">
+                <h3>Register for the meetup</h3>
+                <fieldset>
+                    <legend>Choose hotel room type (required):</legend>
+                    <div>
+                        <input type="radio" name="economy" id="economy" checked>
+                        <label for="economy">Economy (+$0)</label>
+                    
+                        <input type="radio" name="superior" id="siperior">
+                        <label for="superior">Superior(+$50)</label>
+
+                        <input type="radio" name="penthouse" id="penthouse">
+                        <label for="penthouse">Penthouse(+$150)</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Choose classes to attend:</legend>
+                    <div>
+                        <input type="checkbox" name="yoga" id="yoga">
+                        <label for="yoga">Yoga(+$10)</label>
+
+                        <input type="checkbox" name="coffee_roasting" id="coffee_roasting">
+                        <label for="coffee_roasting">Coffee roasting(+$20)</label>
+
+                        <input type="checkbox" name="balloon_animal" id="balloon_animal">
+                        <label for="balloon_animal">Balloon animal art(+$5)</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div>
+                        <label for="transport-options">How are you getting here: </label>
+                        <select name="transport-options" id="transport-options">
+                            <option value="">---Please choose an option---</option>
+                            <option value="plane">Plane</option>
+                            <option value="car">Car</option>
+                            <option value="train">Train</option>
+                            <option value="boat">Boat</option>
+                            <option value="bus">Bus</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="comments">Any other comments: </label>
+                        <textarea name="comments" id="comments" rows="5" cols="50"></textarea>
+                    </div>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Continue to payment</button>
                 </p>
             </form>
         </article>
