@@ -2,6 +2,12 @@ body {
     background-color: gray;
 }
 
+@media (min-width: 30em) {
+    body {
+        background-color: darkblue;
+    }
+}
+
 h1 {
     color: darkred;
     font-size: 2.5em;
