@@ -19,7 +19,9 @@
 }
 
 .box2 > h2 {
-    background-image: url(images/star.png);
+    padding: 0 40px;
     text-align: center;
-    background-repeat: repeat-y no-repeat;
+    background: 
+        url(images/star.png) no-repeat left center,
+        url(images/star.png) repeat-y right center;
 }
