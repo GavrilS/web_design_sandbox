@@ -6,8 +6,20 @@
     margin: 5px;
 }
 
-h2 {
+.box > h2 {
     color: white;
     background-color: rgb(0 0 0 / 0.5);
     margin: 10px;
+}
+
+.box2 {
+    border: 5px solid lightblue;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 40px;
+}
+
+.box2 > h2 {
+    background-image: url(images/star.png);
+    text-align: center;
+    background-repeat: repeat-y no-repeat;
 }
