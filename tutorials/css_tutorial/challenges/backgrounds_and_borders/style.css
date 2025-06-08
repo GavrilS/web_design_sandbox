@@ -2,7 +2,7 @@
     border: 5px solid black;
     border-radius: 10px;
     background-image: url('images/balloons.jpg');
-    background-size: auto;
+    background-size: cover;
     margin: 5px;
 }
 
