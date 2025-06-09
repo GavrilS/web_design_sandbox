@@ -15,3 +15,13 @@ body {
     box-sizing: border-box;
     width: 390px;
 }
+
+.box2 {
+    border: 5px dotted black;
+    margin: 20px 1em 40px 2em;
+    /* margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em; */
+    padding: 1em;
+}
