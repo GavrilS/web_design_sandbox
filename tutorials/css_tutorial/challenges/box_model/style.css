@@ -30,4 +30,5 @@ body {
     background-color: pink;
     border: 5px solid black;
     padding: 1em;
+    display: inline-block;
 }
