@@ -1,0 +1,38 @@
+/* Task 1 below - comment out the css under task 2 */
+/* #outer div ul .nav a {
+    background-color: powderblue;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+div div li a {
+    color: rebeccapurple;
+}
+
+#outer div ul .nav a {
+    background-color: initial;
+} */
+
+/* Task 2 below - comment out the css under task 1 */
+@layer yellow, purple, green;
+
+@layer yellow {
+    #outer2 div ul .nav2 a {
+        padding: 5px;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+}
+
+@layer purple {
+    div div li a {
+        color: rebeccapurple !important;
+    }
+}
+
+@layer green {
+    a {
+        color: lightgreen;
+    }
+}
