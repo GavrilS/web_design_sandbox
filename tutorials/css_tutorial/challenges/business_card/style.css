@@ -4,7 +4,7 @@ body {
 
 .card {
     max-width: 500px;
-    max-height: 500px;
+    max-height: 250px;
     padding: 15px;
     background-color: rgb(240, 0, 0);
     color: white;
@@ -12,3 +12,16 @@ body {
     border-radius: 2%;
 }
 
+.card-header {
+    display: flex;
+}
+
+.card-header h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50%;
+}
+
+#company {
+    padding-left: 35%;
+}
