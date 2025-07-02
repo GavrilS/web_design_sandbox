@@ -2,3 +2,17 @@ html {
   font-family: sans-serif;
 }
 
+
+.box {
+    width: 200px;
+    height: 100px;
+    margin: 100px auto;
+    align-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: red;
+    color: white;
+    border-radius: 5%;
+    border: 1px solid darkred;
+    /* box-shadow: ; */
+}
