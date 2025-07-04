@@ -41,3 +41,21 @@ header, footer {
   border-top: 5px solid #a66;
   border-bottom: 5px solid #a66;
 }
+
+/* Challenge part */
+
+.noto-sans-font {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.rokkitt-font {
+  font-family: "Rokkitt", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
