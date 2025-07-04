@@ -14,5 +14,9 @@ html {
     color: white;
     border-radius: 5%;
     border: 1px solid darkred;
-    /* box-shadow: ; */
+    box-shadow: 
+        0 0 0 2px red,
+        inset 2px 2px rgba(255, 255, 255, 0.5),
+        inset -2px -2px rgba(0, 0, 0, 0.5);
+    
 }
