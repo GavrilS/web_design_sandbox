@@ -121,3 +121,21 @@ a[href^="http"]::after {
     background-size: 100%;
     background-image: url(images/external-link-52.png);
 }
+
+nav {
+    height: 100%;
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li a {
+    display: block;
+    margin: 0.8em 0;
+    padding: 1.8em 0;
+    border: 1px solid pink;
+    text-align: center;
+    text-decoration: none;
+}
