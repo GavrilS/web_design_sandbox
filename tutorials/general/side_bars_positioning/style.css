@@ -13,18 +13,20 @@ body {
 }
 
 .sidebar-left {
-    float: left;
     width: 25%;
+    position: fixed;
 }
 
 section {
     float: left;
     width: 50%;
+    margin-left: 25%;
 }
 
 .sidebar-right {
-    float: left;
     width: 25%;
+    position: fixed;
+    right: 0;
 }
 
 section > p {
