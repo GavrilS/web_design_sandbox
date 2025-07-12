@@ -18,3 +18,15 @@ header {
 header p {
     font-size: 1.5em;
 }
+
+section {
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+}
+
+section div {
+    border: 1px solid black;
+    background-color: rgb(38, 216, 199);
+    margin: 0.5em 0;
+}
