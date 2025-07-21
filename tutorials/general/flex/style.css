@@ -30,3 +30,28 @@ section div {
     background-color: rgb(38, 216, 199);
     margin: 0.5em 0;
 }
+
+article {
+    /* margin: 1em 0.2em; */
+    display: flex;
+    flex-direction: row;
+}
+
+article div {
+    margin: 0.1em;
+    padding: 0.3em 0.3em;
+    background-color: rgb(61, 229, 229);
+}
+
+.flex-side {
+    margin: 0.1em;
+    /* flex: 4 100px; */
+    flex-flow: column;
+}
+
+article:nth-of-type(3) div:first-child {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
