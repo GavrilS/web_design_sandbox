@@ -45,13 +45,20 @@ article div {
 
 .flex-side {
     margin: 0.1em;
-    /* flex: 4 100px; */
     flex-flow: column;
 }
 
 article:nth-of-type(3) div:first-child {
+    flex: 1 100px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
+}
+
+button {
+    flex: 1 auto;
+    margin: 5px;
+    font-size: 18px;
+    line-height: 1.5;
 }
