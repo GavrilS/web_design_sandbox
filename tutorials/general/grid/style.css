@@ -30,3 +30,43 @@ section div {
     background-color: rgb(5, 159, 159);
     border: 0.5px solid rgb(40, 240, 240);
 }
+
+.main-body {
+    margin-top: 2em;
+    padding-top: 1em;
+    display: grid;
+    grid-template-areas: 
+        "heading heading"
+        "aside main"
+        "footer footer";
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+
+.heading {
+    grid-area: heading;
+    background-color: rgb(173, 31, 195);
+    padding: 1em;
+    text-align: center;
+    border-radius: 1em;
+}
+
+aside {
+    grid-area: aside;
+    background-color: rgb(96, 196, 163);
+    padding: 1em;
+}
+
+main {
+    grid-area: main;
+    background-color: rgb(96, 196, 163);
+    padding: 1em;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(173, 31, 195);
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+}
