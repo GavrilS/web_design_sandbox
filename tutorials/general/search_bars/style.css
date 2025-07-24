@@ -66,3 +66,23 @@ body {
 .topnav .search-container button:active {
     background-color: lightgray;
 }
+
+.info-container {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.info-container div {
+    padding: 0.9em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    word-spacing: 0.2em;
+    background-color: rgb(108, 215, 180);
+    border-radius: 0.2em;
+}
+
+.hiden {
+    display: none;
+}
