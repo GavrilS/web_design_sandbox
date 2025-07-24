@@ -36,12 +36,29 @@ body {
     color: white;
 }
 
-.topnav input[type=text] {
+.topnav .search-container {
     float: right;
+}
+
+.topnav input[type=text] {
     margin-top: 0.4em;
-    margin-right: 0.5em;
+    margin-right: 0;
     padding: 1em;
     border: none;
     width: 20em;
     font-size: 1.2em;
+}
+
+.topnav .search-container button {
+    margin-top: 0.4em;
+    margin-right: 0.5em;
+    margin-left: 0;
+    padding: 1em;
+    font-size: 1.2em;
+    border: none;
+    background-color: #ada7a7;
+}
+
+.topnav .search-container button:hover {
+    background-color: grey;
 }
