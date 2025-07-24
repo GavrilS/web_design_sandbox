@@ -1,6 +1,6 @@
-searchInput = document.getElementById('input-search');
-searchBtn = document.getElementById('search-btn');
+const searchBtn = document.getElementById('search-btn');
 
-searchBtn.addEventListener('onclick', () => {
+searchBtn.addEventListener('click', () => {
     console.log('Search btn clicked!');
 });
+

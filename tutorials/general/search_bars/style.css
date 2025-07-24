@@ -62,3 +62,7 @@ body {
 .topnav .search-container button:hover {
     background-color: grey;
 }
+
+.topnav .search-container button:active {
+    background-color: lightgray;
+}
