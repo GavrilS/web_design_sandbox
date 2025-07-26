@@ -37,14 +37,26 @@
     </footer>
 
     <div class="popup-box" id="contact-form">
-        <form action="#">
-
+        <form>
+            <label for="message">Add your message here</label>
+            <textarea name="message" id="message"></textarea>
+            <label for="email">Add your contact email</label>
+            <input type="text" name="email" id="email">
+            <button onclick="sendMessage()">Send message</button>
         </form>
     </div>
 
     <div class="popup-box" id="signup-form">
-        <form action="">
-
+        <form>
+            <label for="name">Add you name</label>
+            <input type="text" name="name" id="name">
+            <label for="password">Add a password</label>
+            <input type="text" name="password" id="password">
+            <label for="confirm-pass">Repeat password</label>
+            <input type="text" name="confirm-pass" id="confirm-pass">
+            <label for="email">Add email</label>
+            <input type="email" name="email" id="email">
+            <button onclick="signup()">Sing Up</button>
         </form>
     </div>
 </body>
