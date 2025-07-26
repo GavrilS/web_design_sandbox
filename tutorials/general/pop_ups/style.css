@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.2sem;
+    letter-spacing: 0.2em;
+    word-spacing: 0.2em;
+    margin: 0.8em;
+    padding: 0.5em;
+    background-color: rgb(227, 227, 214);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #d0cece;
+    margin: 0.5em;
+    border-radius: 5px;
+}
+
+.topnav a {
+    padding: 1.5em;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.topnav a:hover {
+    background-color: #b4abab;
+}
+
+.topnav a.active {
+    background-color: rgb(47, 128, 198);
+    color: white;
+}
+
+.topnav a:active {
+    background-color: #ae9696;
+}
+
+.topnav a#signup-button {
+    float: right;
+}
+
+header {
+    background-color: rgb(33, 149, 152);
+    padding: 0.1em 0;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 1.2em;
+}
