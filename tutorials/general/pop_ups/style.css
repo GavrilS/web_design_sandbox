@@ -14,7 +14,7 @@ body {
 .topnav {
     overflow: hidden;
     background-color: #d0cece;
-    margin: 0.5em;
+    margin-bottom: 0.5em;
     border-radius: 5px;
 }
 
@@ -51,4 +51,33 @@ header {
     text-align: center;
     border-radius: 5px;
     margin-top: 1.2em;
+}
+
+.main-container {
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "aside main";
+    grid-gap: 1em;
+}
+
+aside {
+    grid-area: "aside";
+    background-color: rgb(74, 136, 136);
+    padding: 0 15px;
+}
+
+main {
+    grid-area: "main";
+    background-color: rgb(74, 136, 136);
+    padding: 0 15px;
+}
+
+footer {
+    grid-area: "footer";
+    text-align: center;
+    margin: 1.2em 0;
+    padding: 1em;
+    background-color: #a39472;
+    border-radius: 5px;
 }
