@@ -4,14 +4,14 @@ const signupForm = document.getElementById('signup-form');
 const signupBtn = document.getElementById('signup-button');
 
 contactBtn.addEventListener('click', showPopup, false);
-contactBtn.form = 'contact';
+contactBtn.customParam = 'contact';
 signupBtn.addEventListener('click', showPopup, false);
-signupBtn.form = 'signup';
+signupBtn.customParam = 'signup';
 
 
 function sendMessage() {
     console.log('Thank you for reaching out to our team!');
-
+    contactForm.classList.remove('popup-active');
 }
 
 function signup() {
@@ -21,7 +21,7 @@ function signup() {
 
 function showPopup(event) {
     console.log('Event: ', event);
-    if (event.currentTarget.form === 'contact') {
+    if (event.currentTarget.customParam === 'contact') {
         contactForm.classList.add('popup-active');
         console.log('In contact section of showPopup()');
     } else {
