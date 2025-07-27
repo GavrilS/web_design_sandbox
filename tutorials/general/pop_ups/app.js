@@ -3,8 +3,10 @@ const contactBtn = document.getElementById('contact-button');
 const signupForm = document.getElementById('signup-form');
 const signupBtn = document.getElementById('signup-button');
 
-contactBtn.addEventListener('onclick', showPopup(contactForm));
-signupBtn.addEventListener('onclick', showPopup(signupForm));
+contactBtn.addEventListener('click', showPopup, false);
+contactBtn.form = 'contact';
+signupBtn.addEventListener('click', showPopup, false);
+signupBtn.form = 'signup';
 
 
 function sendMessage() {
@@ -14,16 +16,16 @@ function sendMessage() {
 
 function signup() {
     console.log('Thank you for signing up!');
+    signupForm.classList.remove('popup-active');
 }
 
-function showPopup(form) {
-    form.classList.add('popup-active');
-    console.log(`Adding class to element: ${form}`);
-    // if (form === 'contact') {
-    //     contactForm.classList.add('popup-active');
-    //     console.log('adding active class to contact');
-    // } else {
-    //     signupForm.classList.add('popup-active');
-    //     console.log('adding active class to signup');
-    // }
+function showPopup(event) {
+    console.log('Event: ', event);
+    if (event.currentTarget.form === 'contact') {
+        contactForm.classList.add('popup-active');
+        console.log('In contact section of showPopup()');
+    } else {
+        signupForm.classList.add('popup-active');
+        console.log('In signup section of showPopup()');
+    }
 }
