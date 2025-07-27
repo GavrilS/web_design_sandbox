@@ -21,6 +21,7 @@ function signup() {
 
 function showPopup(event) {
     console.log('Event: ', event);
+    clearActivePopups();
     if (event.currentTarget.customParam === 'contact') {
         contactForm.classList.add('popup-active');
         console.log('In contact section of showPopup()');
@@ -28,4 +29,9 @@ function showPopup(event) {
         signupForm.classList.add('popup-active');
         console.log('In signup section of showPopup()');
     }
+}
+
+function clearActivePopups() {
+    contactForm.classList.remove('popup-active');
+    signupForm.classList.remove('popup-active');
 }
