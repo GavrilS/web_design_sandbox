@@ -8,6 +8,11 @@ contactBtn.customParam = 'contact';
 signupBtn.addEventListener('click', showPopup, false);
 signupBtn.customParam = 'signup';
 
+document.addEventListener('keydown', (e) => {
+    if (e.keyCode === 27) {
+        clearActivePopups();
+    }
+})
 
 function sendMessage() {
     console.log('Thank you for reaching out to our team!');
@@ -32,6 +37,7 @@ function showPopup(event) {
 }
 
 function clearActivePopups() {
+    console.log('Clearing!');
     contactForm.classList.remove('popup-active');
     signupForm.classList.remove('popup-active');
 }

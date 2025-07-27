@@ -115,4 +115,5 @@ footer {
     min-height: 300px;
     border-radius: 10px;
     color: white;
+    outline: 9999px solid rgba(0,0,0,0.5);
 }
